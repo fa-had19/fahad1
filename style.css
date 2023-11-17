@@ -1,0 +1,105 @@
+h1 {
+    color: yellow;
+}
+body{
+    text-align: center;
+}
+
+ul{
+    margin-left: 80%;
+}
+li{
+    margin-left: 80%;
+    display: inline-block;
+    margin: 2%;
+    color: blue;
+    font-size: 30px;
+}
+ul li:hover{
+    color:red;
+    text-decoration-color: aliceblue;
+}
+img{
+    border-radius: 100%;
+    width: 400; height: 380;
+    animation: animate 4s linear infinite;
+    animation-delay: -1s;
+    transition: all 0.5s ease;
+    
+}
+h2{
+    border: 2px solid yellow; width: 80; 
+    text-align: center;
+    color: aliceblue;
+   }
+h3{
+    border: 2px solid yellow; width: 80;
+    text-align: center;
+    color: aliceblue;
+   }
+p:hover{
+    color: yellowgreen;
+   }
+body{
+    background-image: url("images/carl3.jpg");
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+}
+div{
+    text-align: center;
+}
+p{
+    color: aliceblue;
+}
+body img:hover{
+    color: blue;
+}
+.cotainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border: 2px solid blue;
+    animation: border-animation 3s infinite
+}
+@keyframes border-animation {
+    0%{
+        border-color: yellow;
+    }
+    33%{
+        border-color: rgb(0, 38, 255);
+    }
+    66%{
+        border-color: rgb(255, 128, 0);
+    }
+    100%{
+        border-color: rgb(0, 255, 191);
+    }
+}
+.facebook-icon {
+    margin-right: 10px;
+  }
+
+  .login-container {
+    text-align: center;
+  }
+
+  .facebook-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1877f2; /* Facebook blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
